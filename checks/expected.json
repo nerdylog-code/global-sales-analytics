@@ -1,0 +1,23 @@
+{
+  "csv": {
+    "global_superstore_data.csv": {
+      "columns": 14,
+      "rows": 3000
+    }
+  },
+  "sql": {
+    "analises_sql.sql": {
+      "statements": 15
+    }
+  },
+  "sqlite": {
+    "global_superstore.db": {
+      "sales": 3000
+    }
+  },
+  "xlsx": {
+    "Global_Sales_Dashboard.xlsx": {
+      "sheets": 8
+    }
+  }
+}

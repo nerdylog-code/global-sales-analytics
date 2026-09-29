@@ -20,3 +20,12 @@ Window functions, CTEs, moving averages, Pareto analysis, year-over-year growth 
 3. Run the examples in `analises_sql.sql`.
 
 > Portfolio note: the dataset is generated for analytics demonstrations; it is not a live commercial data source.
+
+## Verificação
+
+```bash
+python checks/check_artifacts.py            # confere os artefatos contra o baseline
+python checks/check_artifacts.py --update   # regrava o baseline após mudar os dados
+```
+
+O baseline em `checks/expected.json` é versionado: se um CSV esvaziar, um banco perder tabela ou uma aba do dashboard desaparecer, a checagem falha. Roda no CI a cada push.
